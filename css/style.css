@@ -264,7 +264,9 @@ body {
 }
 
 .business__text:disabled {
+  -webkit-text-fill-color: black;
   color: black;
+  opacity: 1;
 }
 
 .business .btns {
@@ -398,7 +400,7 @@ body {
     display: none;
   }
   .business {
-    padding: 20px 10px 10px 20px;
+    padding: 10px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
