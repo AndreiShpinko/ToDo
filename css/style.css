@@ -263,6 +263,10 @@ body {
   border: 0;
 }
 
+.business__text:disabled {
+  color: black;
+}
+
 .business .btns {
   display: -webkit-box;
   display: -ms-flexbox;
